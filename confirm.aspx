@@ -18,7 +18,7 @@
     <div class="container-fluid">
                Hello, <asp:Label ID="patient" runat="server"></asp:Label>
                You have successfully registered for an appointment with <asp:Label ID="doct_name" runat="server"></asp:Label> on 
-        <asp:Label ID="shift_date" runat="server"></asp:Label>
+        <asp:Label ID="shift_date" runat="server"></asp:Label> <br />
      <asp:Button ID="Button1" runat="server" Text="Go back to Home" Class="btn btn-success" OnClick="Button1_Click" />
     </div>
     </form>
